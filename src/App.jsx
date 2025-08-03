@@ -8,6 +8,7 @@ function App() {
   return (
     <Wrapper>
       <Title onClick={() => navigate("/")}>숙멋 프론트의 TMI 게시판 🦁</Title>
+      <Title onClick={() => navigate("/")}>이곳은 박세은이 점령했다</Title>
       <Outlet />
     </Wrapper>
   );
